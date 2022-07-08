@@ -9,7 +9,7 @@ using WydatkiApp.Models;
 namespace WydatkiApp.Interface
 {
     /// <summary>
-    /// Funkcje do bazy danych 
+    /// Funkcje odwołujące się do bazy danych 
     /// </summary>
     public class MockFunctions : IFunctions
     {
@@ -26,7 +26,7 @@ namespace WydatkiApp.Interface
             return _context.Wydatki;
         }
         /// <summary>
-        /// Sprawdzanie czy istnieje konto z takim emailem
+        /// Sprawdzanie czy istnieje konto z takim loginem
         /// </summary>
         public bool isUserExits(User userModel)
         {
@@ -58,7 +58,7 @@ namespace WydatkiApp.Interface
             }
         }
         /// <summary>
-        /// Rejestracja uzytkownika
+        /// Rejestracja nowego uzytkownika
         /// </summary>
         /// <param name="signUser"></param>
         public void SignUser(User signUser)
