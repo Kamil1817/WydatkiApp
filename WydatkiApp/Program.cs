@@ -9,7 +9,7 @@ namespace WydatkiApp
     static class Program
     {
         /// <summary>
-        ///  The main entry point for the application.
+        ///  Punkt startowy aplikacji.
         /// </summary>
         [STAThread]
         static void Main()
