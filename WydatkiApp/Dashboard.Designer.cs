@@ -173,7 +173,7 @@ namespace WydatkiApp
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(162, 19);
             this.label2.TabIndex = 9;
-            this.label2.Text = "Opis wydatku / przychodu";
+            this.label2.Text = "Opis wydatku/przychodu";
             // 
             // label3
             // 
@@ -183,7 +183,7 @@ namespace WydatkiApp
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(172, 19);
             this.label3.TabIndex = 10;
-            this.label3.Text = "Kwota wydatku / przychodu";
+            this.label3.Text = "Kwota wydatku/przychodu";
             // 
             // label4
             // 
